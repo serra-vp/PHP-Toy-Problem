@@ -11,11 +11,11 @@
       
       $twinkleVar = "Twinkle";
       $starVar = "star";
-      echo $twinkleVar." ".$starVar."<br/>";
+      echo "{$twinkleVar}, {$twinkleVar} little {$starVar}. <br/>";
 
-      $twinkleVar = "How I wonder";
-      $starVar = "what you are";
-      echo $twinkleVar." ".$starVar;
+      $twinkleVar = "wrinkle";
+      $starVar = "start";
+      echo "{$twinkleVar}, {$twinkleVar} little {$starVar}. <br/>";
     ?>    
   </body>
 </html>
