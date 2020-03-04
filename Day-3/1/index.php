@@ -7,7 +7,7 @@
 </head>
 <body>
   <?php
-    /*
+    
     //Answer in Procedural
     $x=10;$y=7;
     echo "
@@ -17,7 +17,7 @@
       {$x} / {$y} = " .($x/$y). " <br/>
       {$x} % {$y} = " .($x%$y). " <br/>
     ";
-    */
+    
     /*
     //Answer in OOP 
     class Arithmetic{
@@ -27,19 +27,19 @@
       }
       public function subtract($x,$y){
         $this->difference = $x - $y;
-        echo "{$x} + {$y} = {$this->difference}";
+        echo "{$x} - {$y} = {$this->difference}";
       }
       public function multiply($x,$y){
         $this->product = $x * $y;
-        echo "{$x} + {$y} = {$this->product}";
+        echo "{$x} * {$y} = {$this->product}";
       }
       public function divide($x,$y){
         $this->quotient = $x / $y;
-        echo "{$x} + {$y} = {$this->quotient}";
+        echo "{$x} / {$y} = {$this->quotient}";
       }
       public function modulo($x,$y){
         $this->remainder = $x % $y;
-        echo "$x + {$y} = {$this->remainder}";
+        echo "$x % {$y} = {$this->remainder}";
       }
     }
     $x=10;$y=7;
