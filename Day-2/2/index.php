@@ -13,7 +13,7 @@
     while($abcCount < 9){
       echo "abc ";
       $abcCount++;
-      if($abcCount == 9) echo "\r\n";
+      if($abcCount == 9) echo "<br/><br/>";
     }
     //do while loop XYZ
     do{
