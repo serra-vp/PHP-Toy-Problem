@@ -9,9 +9,8 @@
   <?php 
     function parallelogram($height,$base,$diagonal){
       $angle = ($height*$height + $base*$base - $diagonal*$diagonal) / (2*$height*$diagonal);
-      $inverseCos = acos($angle);
-      $inverseCos *= 180/3.14;
-      return ((round($inverseCos) == 90) ? "This is rectangles." : "This is rhombus.")."<br/>";
+      $inverseCos = round((acos($angle)) * 180/3.14);
+      return (($inverseCos == 90) ? "This is rectangles." : "This is rhombus.")."<br/>";
     }
     echo parallelogram(3,4,5);
     echo parallelogram(6,6,9);
